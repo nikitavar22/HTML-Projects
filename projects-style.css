@@ -1,0 +1,324 @@
+.block-projects {
+    position: relative;
+    background-size: cover;
+    background: #131313;
+}
+
+.sub-block_projects {
+    position: relative;
+}
+
+.block-scroll-img {
+    margin: 65px 48px 27px 460px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.laine-scroll-block {
+    position: relative;
+    margin-left: 460px;
+    top: -32px;
+    border-radius: 0px;
+
+}
+
+.sub-laine-scroll-block {
+    height: 1px;
+    width: 194px;
+    background: #E3B873;
+}
+
+.img-projects {
+    position: relative;
+    margin-left: 460px;
+    height: 482px;
+    width: 679px;
+/*  left: 627px;         */
+    top: -570px;
+    border-radius: 0px;
+}
+
+.sub-block-scroll {
+    height: 552px;
+    width: 1171px;
+    left: 135px;
+    top: 897px;
+    border-radius: 0;
+
+}
+
+.text-scroll-one {
+    color: #E3B873;
+    font-family: 'Yeseva One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    height: 16px;
+    width: 194px;
+    left: 627px;
+    top: 897px;
+    border-radius: 0;
+
+}
+
+.text-scroll-two{
+    color: #FFFFFF;
+    font-family: 'Yeseva One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    height: 16px;
+    width: 109px;
+    left: 881px;
+    top: 897px;
+    border-radius: 0;
+    opacity: 0.3;
+
+}
+
+.text-scroll-three {
+    color: #FFFFFF;
+    font-family: 'Yeseva One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    height: 16px;
+    width: 199px;
+    left: 1051px;
+    top: 897px;
+    border-radius: 0;
+    opacity: 0.3;
+}
+
+
+.block-complected-projects {
+    font-family: 'Yeseva One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+    height: 66px;
+    width: 253px;
+    left: 135px;
+    top: 966px;
+    border-radius: 0;
+    margin-bottom: 40px;
+
+}
+
+.sub-block-complected-projects {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: white;
+    height: 86px;
+    width: 442px;
+    left: 135px;
+    top: 1066px;
+    border-radius: 0;
+    margin-bottom: 40px;
+}
+
+.table-one {
+    display: flex;
+    margin-bottom: 35px;
+    list-style-type: none;
+}
+
+.table-two {
+    display: flex;
+    list-style-type: none;
+
+}
+
+.table-complected-text-one {
+    font-family: 'Yeseva One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+    height: 22px;
+    width: 66px;
+    left: 135px;
+    top: 1194px;
+    border-radius: 0;
+    margin-bottom: 10px;
+
+}
+
+.table-complected-text-two {
+    font-family: 'Yeseva One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+    height: 22px;
+    width: 213px;
+    left: 325px;
+    top: 1194px;
+    border-radius: 0;
+    margin-bottom: 10px;
+
+}
+
+.table-sub-complected-text-one {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: white;
+    height: 42px;
+    width: 100px;
+    left: 135px;
+    top: 1225px;
+    border-radius: 0;
+    margin-bottom: 10px;
+    margin-right: 61px;
+
+}
+
+.table-sub-complected-text-two {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: white;
+    height: 21px;
+    width: 51px;
+    left: 325px;
+    top: 1225px;
+    border-radius: 0;
+    margin-bottom: 10px;
+
+}
+
+.table-complected-text-three {
+    font-family: 'Yeseva One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+    height: 22px;
+    width: 156px;
+    left: 135px;
+    top: 1301px;
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+
+.table-complected-text-four {
+    font-family: 'Yeseva One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+    height: 22px;
+    width: 218px;
+    left: 325px;
+    top: 1301px;
+    border-radius: 0;
+    margin-bottom: 10px;
+
+
+}
+
+.table-sub-complected-text-three {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: white;
+    height: 24px;
+    width: 103px;
+    left: 135px;
+    top: 1332px;
+    border-radius: 0;
+    margin-bottom: 10px;
+
+}
+
+.table-sub-complected-text-four {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: white;
+    height: 24px;
+    width: 115px;
+    left: 325px;
+    top: 1332px;
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+
+.block-ssss {
+    position: absolute;
+    top: 540px;
+    margin-left: 130px;
+    border-radius: 30px;
+
+}
+
+.sub-block-ssss {
+    display: flex;
+    justify-content: space-between;
+    height: 10px;
+    width: 64px;
+    left: 207px;
+    top: 1437px;
+    border-radius: 30px;
+
+}
+
+.ssss-one {
+    background: white;
+    height: 10px;
+    width: 10px;
+    left: 207px;
+    top: 1437px;
+    border-radius: 30px;
+}
+
+.ssss-two {
+    background: white;
+    height: 10px;
+    width: 10px;
+    left: 234px;
+    top: 1437px;
+    border-radius: 30px;
+    opacity: 0.3;
+}
+
+.ssss-three {
+    background: white;
+    height: 10px;
+    width: 10px;
+    left: 261px;
+    top: 1437px;
+    border-radius: 30px;
+    opacity: 0.3;
+}

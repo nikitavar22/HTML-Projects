@@ -1,0 +1,132 @@
+body {
+    margin: 0px;
+}
+
+.navigator {
+    background: #131313;
+    text-align: justify;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-size: 11px;
+    line-height: 15px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.name {
+    color: #E3B873;
+    margin-right: 100px;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+.home {
+    margin-right: 50px;
+    color: white;
+    margin-left: 25px;
+    text-decoration: none;
+}
+
+.home:hover {
+    color:#E3B873;
+}
+
+.bg-solid {
+    background: solid;
+}
+
+.projects {
+    color: white;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.projects:hover {
+    color:#E3B873;
+}
+
+.measurement {
+    color: white;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.measurement:hover {
+    color:#E3B873;
+}
+
+.team {
+    color: white;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.team:hover {
+    color:#E3B873;
+}
+
+.reviews {
+    color: white;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.reviews:hover {
+    color:#E3B873;
+}
+
+.contracts {
+    color: white;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.contracts:hover {
+    color:#E3B873;
+}
+
+.number {
+    text-align: right;
+    margin-right: 50px;
+    text-decoration: none;
+    color: #E3B873;
+}
+
+.sub {
+    background: #E3B873;
+    color: white;
+    padding: 15px 40px;
+    margin-right: 50px;
+    border-radius: 5px;
+}
+
+.sub:hover {
+    background: #E3B873;
+    color: cornsilk;
+    padding: 15px 40px;
+    margin-right: 50px;
+    border-radius: 5px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .home, .projects, .measurement, .sub, .team, .reviews, .contracts {
+        display: none;
+    }
+
+    .number {
+        display: block;
+        color: white;
+    }
+
+    .name {
+        display: block;
+    }
+
+    .md\:white {
+    }
+}
