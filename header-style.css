@@ -1,5 +1,5 @@
 body {
-    margin: 0px;
+    margin: 0;
 }
 
 .navigator {
@@ -32,10 +32,6 @@ body {
 
 .home:hover {
     color:#E3B873;
-}
-
-.bg-solid {
-    background: solid;
 }
 
 .projects {
