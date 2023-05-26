@@ -134,6 +134,20 @@ body {
 
 }
 
+.blockSt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 80px;
+    height: 10px;
+
+}
+
+.hidden {
+    display: none;
+}
+
 .submit-two-reverse {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 11px;

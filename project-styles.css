@@ -5,27 +5,14 @@
 }
 
 .sub-block_projects {
-    height: 1000px;
+    height: 700px;
     width: 1171px;
     left: 135px;
     top: 897px;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 100px 250px 200px 400px;
-    grid-template-areas:
-            "block-catalog block-catalog"
-            "sub-block-scroll img-projects"
-            "table-projects img-projects"
-            "block-ssss img-projects";
+    display: flex;
 }
 
-.block-catalog {
-    margin-left: 586px;
-    grid-area: block-catalog;
-}
-
-
-.block-scroll-img {
+.sliderTabs {
     height: 45px;
     width: 623px;
     left: 627px;
@@ -44,18 +31,17 @@
 
 }
 
-.sub-laine-scroll-block {
-    background: #E3B873;
-}
-
-.img-projects {
+.slider_image {
     position: relative;
     border-radius: 0;
     grid-area: img-projects;
+    width: 679px;
+    height: 482px;
 }
 
 .sub-block-scroll {
     grid-area: sub-block-scroll;
+    margin-top: 70px;
     border-radius: 0;
 
 }
@@ -64,41 +50,47 @@
     grid-area: table-projects;
 }
 
-.text-scroll-one {
-    color: #E3B873;
-    font-family: 'Yeseva One', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-    text-transform: uppercase;
-    border-radius: 0;
+.tabsBeige {
+    color: #E3B873 !important;
+    opacity: 1 !important;
 }
 
-.text-scroll-two{
-    color: #FFFFFF;
-    font-family: 'Yeseva One', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-    text-transform: uppercase;
-    border-radius: 0;
+.tabsGray{
+    color: #ffffff;
     opacity: 0.3;
 }
 
-.text-scroll-three {
-    color: #FFFFFF;
+.tab {
+    border-bottom: solid 3px;
     font-family: 'Yeseva One', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
+    height: 20px;
     text-transform: uppercase;
     border-radius: 0;
-    opacity: 0.3;
 }
 
+.left {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    width: 60px; !important;
+
+}
+
+.right {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    width: 60px; !important;
+
+}
 
 .block-complected-projects {
     font-family: 'Yeseva One', sans-serif;
@@ -133,6 +125,7 @@
 
 .table-one {
     display: flex;
+    margin-top: 40px;
     list-style-type: none;
 }
 
@@ -261,46 +254,43 @@
 }
 
 .block-ssss {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
     height: 13px;
-    width: 205px;
+    width: 260px;
     left: 136px;
     top: 1436px;
     border-radius: 30px;
 }
+.sliderImages {
+    grid-area: sliderImages;
+}
 
-.sub-block-ssss {
+.sliderScroll{
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    grid-area: sliderScroll;
+    margin-top: 80px;
+    margin-right: 350px;
+}
+
+.sliderArrows{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
     border-radius: 30px;
 }
 
-.ssss-one {
-    background: white;
+.sliderLaps {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 80px;
     height: 10px;
-    width: 10px;
-    left: 207px;
-    top: 1437px;
-    border-radius: 30px;
-}
-
-.ssss-two {
-    background: white;
-    height: 10px;
-    width: 10px;
-    left: 234px;
-    top: 1437px;
-    border-radius: 30px;
-    opacity: 0.3;
-}
-
-.ssss-three {
-    background: white;
-    height: 10px;
-    width: 10px;
-    left: 261px;
-    top: 1437px;
-    border-radius: 30px;
-    opacity: 0.3;
 }
 
 .mb-img {
@@ -311,6 +301,30 @@
     left: 18px;
     top: 779px;
     border-radius: 0;
+}
+
+.lap {
+    height: 10px;
+    width: 10px;
+    left: 207px;
+    top: 1437px;
+    border-radius: 30px;
+}
+
+.hidden {
+    display: none;
+}
+
+.active {
+    display: inline;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.white {
+    background-color: white;
 }
 
 
@@ -328,20 +342,9 @@
         top: 338px;
         border-radius: 0;
     }
-    .sub-block_projects {
-        height: 1000px;
-        width: 600px;
-        left: 135px;
-        top: 897px;
-        display: grid;
-        grid-template-columns: 50%;
-        grid-template-rows: 100px 250px 285px;
-        grid-template-areas:
-            "block-catalog"
-            "sub-block-scroll"
-            "mb-img"
-            "table-projects";
-    }
+
+
+
 
     .block-complected-projects {
         margin-left: 60px;
@@ -497,5 +500,28 @@
         left: 325px;
         top: 1332px;
         border-radius: 0;
+    }
+    .lap {
+        height: 10px;
+        width: 10px;
+        left: 207px;
+        top: 1437px;
+        border-radius: 30px;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .active {
+        display: inline;
+    }
+
+    .gray {
+        background-color: gray;
+    }
+
+    .black {
+        background-color: black;
     }
 }
